@@ -1,0 +1,88 @@
+.payment {
+  padding-bottom: 125px;
+}
+
+.payment__mastercard,
+.payment__online,
+.payment__account,
+.payment__quick {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.payment__mastercard {
+  padding-bottom: 133px;
+}
+
+.payment__online {
+  padding-bottom: 116px;
+}
+
+.payment__account {
+  padding-bottom: 149px;
+}
+
+.payment__mastercard-item,
+.payment__online-item,
+.payment__account-item,
+.payment__quick-item {
+  width: 480px;
+}
+
+.payment__mastercard-item {
+  margin-bottom: 58px;
+}
+
+.payment__mastercard-title,
+.payment__online-title,
+.payment__account-title,
+.payment__quick-title {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 400;
+  color: #222222;
+}
+
+.payment__mastercard-description,
+.payment__online-description,
+.payment__account-description,
+.payment__quick-description {
+  font-size: 18px;
+  line-height: 26px;
+  color: #222222;
+}
+
+.payment__mastercard-description {
+  padding-bottom: 28px;
+}
+
+.payment__appstore-link,
+.payment__googleplay-link {
+  margin-right: 20px;  
+}
+
+.payment__appstore-link:hover,
+.payment__googleplay-link:hover {
+  opacity: 0.8;
+}
+
+.payment__appstore-link:active,
+.payment__googleplay-link:active {
+  opacity: 0.6;
+}
+
+.payment__applepay-link,
+.payment__googlepay-link {
+  margin-right: 20px;  
+}
+
+.payment__applepay-link:hover,
+.payment__googlepay-link:hover {
+  opacity: 0.8; 
+}
+
+.payment__applepay-link:active,
+.payment__googlepay-link:active {
+  opacity: 0.7;  
+}

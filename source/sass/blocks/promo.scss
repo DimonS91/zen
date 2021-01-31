@@ -1,0 +1,69 @@
+.promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 74px;
+}
+
+.promo__item {
+  width: 480px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.promo__title {
+  margin: 0;
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #222222;
+  padding-top: 31px;
+  padding-bottom: 23px;
+}
+
+.promo__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #222222;
+  padding-bottom: 13px;
+}
+
+.promo__item small {
+  position: relative;
+  order: -1;
+  padding-left: 37px;
+}
+
+.promo__item small::before {
+  position: absolute;
+  content: '';
+  background: url(../img/ico-play1.svg);
+  width: 29px;
+  height: 29px;
+  top: -8px;
+  left: 0;
+}
+
+.promo__app-link {
+  margin-bottom: 20px;
+}
+
+.promo__image img {
+  padding-top: 40px;
+}
+
+.promo__app-link,
+.promo__google-link {
+  width: 170px
+}
+
+.promo__app-link:hover,
+.promo__google-link:hover {
+  opacity: 0.8;
+}
+
+.promo__app-link:active,
+.promo__google-link:active {
+  opacity: 0.7;
+}

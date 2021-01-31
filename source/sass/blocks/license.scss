@@ -1,0 +1,24 @@
+.license {
+  position: relative;
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
+
+.license-description {
+  
+  margin-top: 26px;  
+  width: 836px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #aaaaaa;
+}
+
+.license::after {
+  position: absolute;
+  content: '';
+  background: url(../img/pci.png);
+  width: 176px;
+  height: 60px;
+  right: 0;
+  bottom: 65px;
+}

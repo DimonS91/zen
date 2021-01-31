@@ -1,0 +1,35 @@
+.partners {
+  padding-bottom: 47px;
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+}
+
+ .partners__button { 
+  display: block; 
+  margin: auto;
+  text-align: center;
+  width: 237px;
+  color: #222222;
+  padding: 12px 32px;
+  border-radius: 48px;
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+}
+
+.partners__button:hover {
+  opacity: 0.5;
+}
+
+.partners__button:active {
+  opacity: 0.3;
+}
+
+.parnters__list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}

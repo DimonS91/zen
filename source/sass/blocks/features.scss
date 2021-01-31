@@ -1,0 +1,57 @@
+.features {
+  padding-bottom: 46px;
+}
+
+.features__guarantee,
+.features__care {  
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;  
+}
+
+.features__guarantee-item {
+  padding-bottom: 99px;
+}
+
+.features__guarantee-item,
+.features__care-item
+ {
+  width: 480px;  
+}
+
+.features__guarantee-title,
+.features__care-title {
+  font-size: 36px;
+  line-height: 43px;
+  color: #222222;
+  font-weight: 400;
+}
+
+.features__guarantee-description,
+.features__care-description {
+  font-size: 18px;
+  line-height: 26px;
+  color: #222222;
+} 
+
+.features__cashback {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.features__cashback-title {
+  padding-top: 208px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 400;
+  columns: #222222;
+}
+
+.features__cashback-description {
+  padding: 0 8px;
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;  
+}
